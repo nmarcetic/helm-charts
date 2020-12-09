@@ -1,0 +1,73 @@
+apiVersion: v1
+entries:
+  centel:
+  - apiVersion: v2
+    appVersion: 0.11.0
+    created: "2020-12-09T18:54:06.528577442+01:00"
+    dependencies:
+    - name: nats
+      repository: '@bitnami'
+      version: 6.0.0
+    - alias: postgresql-things
+      name: postgresql
+      repository: '@bitnami'
+      version: 10.1.3
+    - alias: postgresql-users
+      name: postgresql
+      repository: '@bitnami'
+      version: 10.1.3
+    - alias: postgresql-authn
+      name: postgresql
+      repository: '@bitnami'
+      version: 10.1.3
+    - alias: postgresql-bootstrap
+      condition: bootstrap.enabled
+      name: postgresql
+      repository: '@bitnami'
+      version: 10.1.3
+    - alias: redis-streams
+      name: redis
+      repository: '@bitnami'
+      version: 12.1.3
+    - alias: redis-auth
+      name: redis
+      repository: '@bitnami'
+      version: 12.1.3
+    - alias: redis-mqtt
+      name: redis
+      repository: '@bitnami'
+      version: 12.1.3
+    - alias: redis-opcua
+      condition: adapter_opcua.enabled
+      name: redis
+      repository: '@bitnami'
+      version: 12.1.3
+    - alias: redis-lora
+      condition: adapter_lora.enabled
+      name: redis
+      repository: '@bitnami'
+      version: 12.1.3
+    - condition: influxdb.enabled
+      name: influxdb
+      repository: '@bitnami'
+      version: 1.1.2
+    - alias: twins-db
+      condition: twins.enabled
+      name: mongodb
+      repository: '@bitnami'
+      version: 10.1.4
+    description: Centel IoT Platform
+    digest: ac53579263c07239a8af5eb4e050f82bce4b2c8de5592123e22d0c3c81245989
+    home: https://www.telivity.io
+    icon: https://avatars1.githubusercontent.com/u/13207490
+    maintainers:
+    - email: nmarcetic86@gmail.com
+      name: nmarcetic
+    name: centel
+    sources:
+    - https://hub.docker.com/u/mainflux/
+    type: application
+    urls:
+    - https://nmarcetic.github.io/helm-charts/centel-0.1.6.tgz
+    version: 0.1.6
+generated: "2020-12-09T18:54:06.496929703+01:00"
