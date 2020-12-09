@@ -68,6 +68,6 @@ entries:
     - https://hub.docker.com/u/mainflux/
     type: application
     urls:
-    - https://nmarcetic.github.io/helm-charts/centel-0.1.6.tgz
+    - https://nmarcetic.github.io/helm-charts/centel/centel-0.1.6.tgz
     version: 0.1.6
 generated: "2020-12-09T18:54:06.496929703+01:00"
