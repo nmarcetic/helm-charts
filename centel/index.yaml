@@ -3,7 +3,7 @@ entries:
   centel:
   - apiVersion: v2
     appVersion: 0.11.0
-    created: "2020-12-09T18:54:06.528577442+01:00"
+    created: "2020-12-10T15:18:23.707258187+01:00"
     dependencies:
     - name: nats
       repository: '@bitnami'
@@ -56,8 +56,12 @@ entries:
       name: mongodb
       repository: '@bitnami'
       version: 10.1.4
+    - alias: jaeger-operator
+      name: jaeger-operator
+      repository: '@jaegertracing'
+      version: 2.17.0
     description: Centel IoT Platform
-    digest: ac53579263c07239a8af5eb4e050f82bce4b2c8de5592123e22d0c3c81245989
+    digest: 579c4875274d0eb032bf43bfbb96c5fdd05bbd5a206555268308ced3548a1c9f
     home: https://www.telivity.io
     icon: https://avatars1.githubusercontent.com/u/13207490
     maintainers:
@@ -68,6 +72,6 @@ entries:
     - https://hub.docker.com/u/mainflux/
     type: application
     urls:
-    - https://nmarcetic.github.io/helm-charts/centel/centel-0.1.6.tgz
+    - centel-0.1.6.tgz
     version: 0.1.6
-generated: "2020-12-09T18:54:06.496929703+01:00"
+generated: "2020-12-10T15:18:23.683876841+01:00"
