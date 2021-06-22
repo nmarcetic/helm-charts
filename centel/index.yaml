@@ -3,7 +3,7 @@ entries:
   centel:
   - apiVersion: v2
     appVersion: 0.12.0
-    created: "2021-06-22T17:35:05.740727+02:00"
+    created: "2021-06-22T17:59:49.573216+02:00"
     dependencies:
     - name: nats
       repository: '@bitnami'
@@ -70,7 +70,7 @@ entries:
       repository: https://kubernetes.github.io/ingress-nginx
       version: 3.34.0
     description: Centel IoT Platform
-    digest: 0edbf923364bbba7cb3684bc90b03a703c22ffd15a46f1f49d71afa34cfd892f
+    digest: c3d34fd071596abbb70d4426c379f13671ff93212ebe9a12fc09072f02fddab1
     home: https://www.telivity.io
     icon: https://avatars1.githubusercontent.com/u/13207490
     maintainers:
@@ -85,7 +85,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.11.0
-    created: "2021-06-22T17:35:05.71933+02:00"
+    created: "2021-06-22T17:59:49.554967+02:00"
     dependencies:
     - name: nats
       repository: '@bitnami'
@@ -160,4 +160,4 @@ entries:
     urls:
     - centel-0.1.6.tgz
     version: 0.1.6
-generated: "2021-06-22T17:35:05.696053+02:00"
+generated: "2021-06-22T17:59:49.533509+02:00"
